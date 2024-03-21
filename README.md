@@ -1,7 +1,8 @@
 # MMM-NewsFeedTicker
+
 news ticker like what you see on the news channels, except for online newspapers, showing current headlines and short descritpions. 
 
-The MMM-NewsFeedTickermodule is a <a href=https://github.com/MichMich/MagicMirror/wiki/3rd-Party-Modules>3rd Party Module</a> of the <a href=https://github.com/MichMich/MagicMirror/tree/developMagicMirror>MagicMirror</a> 
+The MMM-NewsFeedTickermodule is a [3rd Party Module](https://github.com/MichMich/MagicMirror/wiki/3rd-Party-Modules) of the [MagicMirror²](https://magicmirror.builders/).
 
 ## Screenshots
 
@@ -12,7 +13,8 @@ The MMM-NewsFeedTickermodule is a <a href=https://github.com/MichMich/MagicMirro
 ## Using the module...
 
 To use this module, add it to the modules array in the 'config/config.js' file:
-```
+
+```javascript
 modules: [
 	{
 	disabled: false,
@@ -43,9 +45,11 @@ modules: [
 ```
 
 ## Install...
-```
+
+```bash
 cd ~/MagicMirror/modules
-git clone https://github.com/justjim1220/MMM-NewsFeedTicker.git
+git clone https://github.com/dvbit/MMM-NewsFeedTicker
+npm install
 ```
 
 ## Other Info...
@@ -61,12 +65,15 @@ Hope you all like it!
 ```
 
 ## Configurations...
+
 to change background color, add the following to you custom.css file:
-```
+
+```css
 .MMM-NewsFeedTicker {
     background: rgb(104, 9, 9); // to change background color, can use rgb. hex, or name of the color
 }
 ```
+
 to remove background color, change to ``` background: none; ```
 
 some users are having issues with speed of the animation.
@@ -77,6 +84,7 @@ go to the following line in the MMM-NewsFeedTicker.js file and change the number
 ```
 
 ## Acknowledgements...
+
 First, I want to thank @sdetweil, @Sean, @cowboysdude, & @Mykle1 for their patience in attempting to teach me this coding stuff!!!
 
 And, @Sean & @sdetweil for giving the pointers I needed to finish it when I was stuck!
